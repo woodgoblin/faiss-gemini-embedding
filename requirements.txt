@@ -1,0 +1,31 @@
+# Core dependencies
+google-generativeai>=0.3.0
+faiss-cpu>=1.7.4
+numpy>=1.26.0
+pydantic>=2.0.0
+
+# MCP server support
+mcp>=1.0.0
+
+# HTTP server support
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+pytest-cov>=4.1.0
+black>=23.0.0
+isort>=5.12.0
+
+# Security tools
+safety>=3.0.0
+bandit>=1.7.5
+
+# For API retries and async
+aiohttp>=3.8.0
+tenacity>=8.2.0
+
+# Environment variable loading
+python-dotenv>=1.0.0

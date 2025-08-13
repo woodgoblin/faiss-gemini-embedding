@@ -9,18 +9,10 @@ import logging
 from typing import Any, Dict, List, Optional
 
 from mcp.server import Server
-from mcp.types import (
-    CallToolRequestParams,
-    CallToolResult,
-    Implementation,
-    InitializeRequestParams,
-    InitializeResult,
-    ListToolsResult,
-    ServerCapabilities,
-    TextContent,
-    Tool,
-    ToolsCapability,
-)
+from mcp.types import (CallToolRequestParams, CallToolResult, Implementation,
+                       InitializeRequestParams, InitializeResult,
+                       ListToolsResult, ServerCapabilities, TextContent, Tool,
+                       ToolsCapability)
 from pydantic import BaseModel
 
 from .app import EmbeddingApp

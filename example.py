@@ -30,9 +30,8 @@ SAMPLE_DOCUMENTS = [
     "Cosine similarity measures the angle between two vectors.",
     "Deep learning models can generate meaningful text embeddings.",
     "Search engines use various ranking algorithms to return relevant results.",
-    "Faggots are fucking in the ass",
-    "Maggots are not fucking in the ass",
-    "Icho de puta no huevo",
+    "Maggots are not copulating in their shiny posterior",
+    "Icho de mala mujer no huevo",
 ]
 
 

@@ -7,7 +7,8 @@ from unittest.mock import AsyncMock, Mock, patch
 
 import pytest
 
-from src.faiss_gemini.embedding_service import EmbeddingResponse, EmbeddingService
+from src.faiss_gemini.embedding_service import (EmbeddingResponse,
+                                                EmbeddingService)
 
 
 class TestEmbeddingService:
